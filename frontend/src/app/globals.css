@@ -1,0 +1,35 @@
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.right-side-main-component-parent-section{
+  display: flex;
+}
+
+.main-parent-section-1 > div:nth-child(1){
+  width:17%;
+  height:100vh;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:9999;
+  background-color: white;
+}
+.main-parent-section-1 > div:nth-child(2){
+  width:100%;
+  min-height:100vh;
+  background-color:#1E1E20;
+
+}
+.parent-component-wrapper{
+  display: flex;
+}
+.parent-useless-container{
+  width:30%;
+}
+.parent-working-container{
+  width:70%;
+  padding:20px;
+}

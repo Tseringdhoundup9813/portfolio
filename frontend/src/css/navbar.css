@@ -1,0 +1,41 @@
+
+
+.navbar-main-container-wrapper{
+   
+}
+.navbar-main-container-wrapper  ul{
+    display: flex;
+    gap:20px;
+    height:10vh;
+    align-items: center;
+}
+.navbar-main-container-wrapper > ul li{
+    list-style-type:none;
+}
+.navbar-main-container-wrapper > ul li a{
+    color:white;
+    text-decoration: none;
+}
+.navbar-main-container-wrapper > ul li a:hover{
+    color:rgb(218, 218, 218);
+}
+.navbar-main-container-wrapper > ul li >.active{
+    position:relative;
+}
+.navbar-main-container-wrapper > ul li > .active::after{
+    position:absolute;
+    content:'';
+    width:100%;
+    height:2px;
+    background-color: orange;
+    bottom:-4px;
+    left:0px;
+    transition:all 1s ease-in-out;
+    animation-name: barLeftToRight;
+    border-radius:3px;
+    animation-duration:0.3s;
+}
+@keyframes barLeftToRight{
+    from {width:0;}
+    to {width:100%;}
+  }

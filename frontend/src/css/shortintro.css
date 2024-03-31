@@ -1,0 +1,24 @@
+
+
+.short-intro-main-section{
+    overflow: hidden;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(254, 252, 248);
+    font-size:2em;
+ 
+}
+.short-intro-main-section > h1{
+   color:rgb(255, 112, 50);
+}
+.short-intro-main-section > h3{
+    font-size:1.5rem;
+}
+.short-intro-main-section > p{
+    width:80%;
+    font-size:1rem;
+    margin-top:10px;
+    color:rgb(255, 255, 255);
+}
