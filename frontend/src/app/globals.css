@@ -4,6 +4,9 @@
   padding:0px;
   box-sizing: border-box;
 }
+body{
+  overflow: hidden;
+}
 .right-side-main-component-parent-section{
   display: flex;
 }
@@ -27,9 +30,9 @@
   display: flex;
 }
 .parent-useless-container{
-  width:30%;
+  width:25%;
 }
 .parent-working-container{
-  width:80%;
+  width:75%;
   padding:20px;
 }

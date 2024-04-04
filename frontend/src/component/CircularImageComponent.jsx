@@ -9,7 +9,7 @@ import MyImage from "../../public/image/tsering.png"
 function CircularImageComponent() {
   return (
     <motion.div
-    initial={{y:"-250%",x:"-50%"}}
+    initial={{y:"-20%",x:"-50%"}}
     viewport={{once:true}}
     animate={{y:"-20%",x:"-50%"}}
     transition={{duration:0.3,type:'tween'}} 
