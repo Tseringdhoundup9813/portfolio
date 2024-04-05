@@ -3,8 +3,8 @@
     color:rgb(232, 232, 232);
     padding-right:20px;
     margin-bottom:40vh;
-
 }
+
 .project-container-title{
     color:rgb(249, 90, 78);
     font-size:3rem;
@@ -38,7 +38,7 @@
 .project-container-wrapper > section > div:hover{
     transform: scale(1.2);
     z-index: 999;
-    transition-delay:0.3s;
+    transition-delay:0.5s;
 }
 .project-container-wrapper >section>div:hover img{
     filter:grayscale(0%);
@@ -46,7 +46,7 @@
 }
 .project-container-wrapper >section >div:hover .project-detail-container {
     visibility:visible;
-    transition-delay:0.3s;
+    transition-delay:0.5s;
  
 }
 
@@ -103,4 +103,69 @@
     background-color: rgb(84, 84, 84);
     padding:3px 5px;
     border-radius:1px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .project-container-wrapper{
+       all:unset;
+       padding:0px 10px;
+       padding-bottom:0px !important;
+       color:white;
+       
+    }
+    .project-container-title{
+        all:unset;
+        color:rgb(249, 90, 78);
+        font-size:2rem;
+        font-weight:800;
+    }
+    .project-container-wrapper > p{
+        color:rgb(230, 230, 230);
+    }
+    .project-container-wrapper > section{
+        display:grid;
+        height:80vh;
+        width:100%;
+        overflow: scroll;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        column-gap:40px;
+    }
+    .project-list-container > div:last-child{
+        margin-bottom:12vh;
+    }
+    .project-list-container >div:first-child{
+        margin-top:2vh;
+    }
+    .project-container-wrapper > section > div:hover{
+        transform: scale(1);
+        z-index: 999;
+        transition-delay:0.5s;
+    }
+    .project-container-wrapper >section>div:hover img{
+        filter:grayscale(0%);
+        transition-delay: 0.1s;
+    }
+    .project-detail-container{
+        visibility:visible;
+    }
+    
+    .project-container-wrapper >section >div:hover .project-detail-container {
+       all:unset;
+     
+    }
+
+    /* PROJECT DETAIL CONTAINER */
+    .project-detail-container{
+        position: static;
+        top:95%;
+        background-color:transparent;
+        padding:10px;
+        
+        /* border-top:1px solid yellow; */
+
+    }   
+    
 }

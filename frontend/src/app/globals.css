@@ -5,34 +5,49 @@
   box-sizing: border-box;
 }
 body{
-  overflow: hidden;
-}
-.right-side-main-component-parent-section{
-  display: flex;
+  overflow-x:hidden;
+  background-color: rgb(36, 36, 36);
+
 }
 
-.main-parent-section-1 > div:nth-child(1){
-  width:17%;
-  height:100vh;
-  position:fixed;
-  top:0px;
-  left:0px;
-  z-index:9999;
-  background-color: white;
+.main-parent-section{
+  display: flex;
 }
-.main-parent-section-1 > div:nth-child(2){
+.main-parent-section > div:nth-child(1){
+    width:15%;
+    height:100vh;
+    position:fixed;
+    background-color: rgb(255, 255, 255);
+}
+.main-hero-area-section{
   width:100%;
-  min-height:100vh;
-  background-color:#1E1E20;
-
-}
-.parent-component-wrapper{
+  height:100vh;
   display: flex;
 }
-.parent-useless-container{
+.main-hero-area-section >div:nth-child(1){
   width:25%;
 }
-.parent-working-container{
+.main-hero-area-section>div:nth-child(2){
   width:75%;
-  padding:20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding:0px;
+    margin:0px;
+  }
+  .main-parent-section > div:nth-child(1){
+    width:0%;
+    position: static;
+  }
+  .main-hero-area-section >div:nth-child(1){
+    width:0%;
+  }
+  .main-hero-area-section>div:nth-child(2){
+    width:100%;
+    display:flex;
+    padding:0px;
+    margin:0px;
+  }
 }

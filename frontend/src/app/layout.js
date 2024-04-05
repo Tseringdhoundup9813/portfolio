@@ -16,16 +16,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={inter.className}>
-        <section className="main-parent-section-1">
-          <LeftSideComponent/>
-          <div className="right-side-main-component-parent-section">
-            <div className="parent-useless-container">
+        <section className="main-parent-section">
+            <LeftSideComponent/>
+            <div className="main-hero-area-section">
+              <div>
+              </div>
+              <div>
+                <Navbar/>
+                {children}
+              </div>
             </div>
-            <div className="parent-working-container">
-              <Navbar/>
-              {children}
-            </div>
-          </div>
         </section>
       </body>
     </html>

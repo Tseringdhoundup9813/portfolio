@@ -1,12 +1,18 @@
 'use client'
 import React from 'react'
 import "@/css/shortintro.css"
+import Image from 'next/image'
+import MyImage from "../../public/image/tsering.png"
 
 import {motion} from 'framer-motion'
 
 function ShortIntroComponent() {
   return (
     <div className='short-intro-main-section'>
+
+        <div className='short-image-main-section'>
+            <Image src={MyImage} width={500} height={500}></Image>
+        </div>
         <motion.h1 
           style={{originX:0}}
           initial={{y:-500,opacity:0}}

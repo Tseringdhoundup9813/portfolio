@@ -5,16 +5,10 @@ import CircularImageComponent from './CircularImageComponent'
 
 function LeftSideComponent() {
   return (
-        <motion.div
-          initial={{x:0,width:"14%"}}
-          viewport={{once:true}}
-          transition={{duration:0,delay:0.3}}  
-          animate={{x:0,width:"14%"}}>
-      
+        <div>
           <CircularImageComponent/>
-
-        </motion.div>
-
+        </div>
+    
   )
 }
 

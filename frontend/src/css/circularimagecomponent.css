@@ -1,22 +1,22 @@
 
 
 .circular-image-main-section{
-    width:170px;
-    height:170px;
+    width:180px;
+    height:180px;
     position: absolute;
-    top:40%;
-    left:100%;
+    top:45%;
+    left:90%;
     transform: translate(-50%,-50%);
-    border-radius:50%;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius:50%;
 }
 .circular-image-main-section > div{
-    width:140px;
-    height:140px;
-    background-color: rgb(231, 231, 231);
+    width:80%;
+    height:80%;
+    background-color: rgb(216, 216, 216);
     border-radius:50%;
     display: flex;
     align-items: center;
@@ -31,4 +31,30 @@
     margin-left:40px;
     margin-top:50px;
     filter:brightness(1.3)
+}
+
+@media only screen and (max-width: 600px) {
+    .circular-image-main-section{
+        width:165px;
+        height:165px;
+        top:18%;
+        left:47%;
+        background-color:transparent;
+        display: none;
+    }
+    .circular-image-main-section > div{
+        width:100%;
+        height:100%;     
+        background-color: rgb(91, 91, 91);
+    }
+    .circular-image-main-section > div > img{
+        width:120%;
+        height:120%;
+        object-fit:contain;
+        margin-left:40px;
+        margin-top:50px;
+        filter:brightness(1.2);
+        filter:grayscale(80%);
+    }
+
 }
