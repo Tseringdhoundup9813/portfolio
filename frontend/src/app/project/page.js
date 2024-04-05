@@ -19,7 +19,7 @@ function page() {
         transition={{duration:0.5}}>
         My Recent Work
       </motion.h1>
-      <p>Here are a few past design projects I've worked on</p>
+      <p>Here are a few past design projects Ive worked on</p>
 
       <section className='project-list-container'>
         <motion.div
@@ -33,7 +33,7 @@ function page() {
                 <h1 className='project-detail-title'> Padmai School </h1>
                 <p className='project-detail-year'>Date 2019</p>
               </div>
-              <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consul</p>
+              <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
               <div className='project-detail-tools-container'>
                 <h1>Technologies are</h1>
                 <ul>
@@ -57,7 +57,7 @@ function page() {
               <h1 className='project-detail-title'>Padmai School</h1>
               <p className='project-detail-year'>Date 2019</p>
             </div>
-            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consul</p>
+            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
             <div className='project-detail-tools-container'>
               <h1>Technologies are</h1>
               <ul>
@@ -81,7 +81,7 @@ function page() {
               <h1 className='project-detail-title'>Padmai School</h1>
               <p className='project-detail-year'>Date 2019</p>
             </div>
-            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consul</p>
+            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
             <div className='project-detail-tools-container'>
               <h1>Technologies are</h1>
               <ul>
@@ -102,7 +102,7 @@ function page() {
               <h1 className='project-detail-title'>Padmai School</h1>
               <p className='project-detail-year'>Date 2019</p>
             </div>
-            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consul</p>
+            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
             <div className='project-detail-tools-container'>
               <h1>Technologies are</h1>
               <ul>
@@ -123,7 +123,7 @@ function page() {
               <h1 className='project-detail-title'>Padmai School</h1>
               <p className='project-detail-year'>Date 2019</p>
             </div>
-            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consul</p>
+            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
             <div className='project-detail-tools-container'>
               <h1>Technologies are</h1>
               <ul>
@@ -144,7 +144,7 @@ function page() {
               <h1 className='project-detail-title'>Padmai School</h1>
               <p className='project-detail-year'>Date 2019</p>
             </div>
-            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consul</p>
+            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
             <div className='project-detail-tools-container'>
               <h1>Technologies are</h1>
               <ul>
