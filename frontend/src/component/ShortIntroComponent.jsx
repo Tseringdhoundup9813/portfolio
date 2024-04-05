@@ -11,7 +11,7 @@ function ShortIntroComponent() {
     <div className='short-intro-main-section'>
 
         <div className='short-image-main-section'>
-            <Image src={MyImage} width={500} height={500} alt='img'></Image>
+            <Image src={MyImage} width={500} height={500} alt='project-image'></Image>
         </div>
         <motion.h1 
           style={{originX:0}}
