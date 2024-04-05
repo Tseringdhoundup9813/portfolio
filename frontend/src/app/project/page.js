@@ -27,7 +27,7 @@ function page() {
           animate={{opacity:1}}
           transition={{duration:0.5}}
         >
-            <Image src={UI1} width={500} height={500}></Image>
+            <Image src={UI1} width={500} height={500} alt={'img'}></Image>
             <div className='project-detail-container'>
               <div className='project-detail-title-and-year-container'>
                 <h1 className='project-detail-title'> Padmai School </h1>
@@ -51,7 +51,7 @@ function page() {
            initial={{opacity:0.2}}
            animate={{opacity:1}}
            transition={{duration:1.2}}>
-          <Image src={UI2} width={500} height={500}></Image>
+          <Image src={UI2} width={500} height={500} alt={'img'}></Image>
           <div className='project-detail-container'>
             <div className='project-detail-title-and-year-container'>
               <h1 className='project-detail-title'>Padmai School</h1>
@@ -75,7 +75,7 @@ function page() {
         <motion.div   initial={{opacity:0.2}}
           animate={{opacity:1}}
           transition={{duration:1}}>
-          <Image src={UI3} width={500} height={500}></Image>
+          <Image src={UI3} width={500} height={500} alt={'img'}></Image>
           <div className='project-detail-container'>
             <div className='project-detail-title-and-year-container'>
               <h1 className='project-detail-title'>Padmai School</h1>
@@ -96,7 +96,7 @@ function page() {
         <motion.div   initial={{opacity:0.2}}
           animate={{opacity:1}}
           transition={{duration:1.1}}>
-          <Image src={UI2} width={500} height={500}></Image>
+          <Image src={UI2} width={500} height={500} alt={'img'}></Image>
           <div className='project-detail-container'>
             <div className='project-detail-title-and-year-container'>
               <h1 className='project-detail-title'>Padmai School</h1>
@@ -117,7 +117,7 @@ function page() {
         <motion.div    initial={{opacity:0.2}}
           animate={{opacity:1}}
           transition={{duration:1.4}}>
-          <Image src={UI3} width={500} height={500}></Image>
+          <Image src={UI3} width={500} height={500} alt={'img'}></Image>
           <div className='project-detail-container'>
             <div className='project-detail-title-and-year-container'>
               <h1 className='project-detail-title'>Padmai School</h1>
@@ -138,7 +138,7 @@ function page() {
         <motion.div   initial={{opacity:0.2}}
           animate={{opacity:1}}
           transition={{duration:3}}div>
-          <Image src={UI1} width={500} height={500}></Image>
+          <Image src={UI1} width={500} height={500} alt={'img'}></Image>
           <div className='project-detail-container'>
             <div className='project-detail-title-and-year-container'>
               <h1 className='project-detail-title'>Padmai School</h1>
