@@ -10,7 +10,7 @@ function CircularImageComponent() {
   return (
     <div className='circular-image-main-section'>
     <div>
-      <Image src={MyImage} width={500} height={500}></Image>
+      <Image src={MyImage} width={500} alt='image' height={500}></Image>
     </div>
     </div>
   )
