@@ -13,7 +13,6 @@ function Navbar() {
         <ul>
             <li><Link className={`${pathname=='/'?'active':''}`} href="/">Home</Link></li>
             <li><Link  className={`${pathname=='/project'?'active':''}`} href="/project">Project</Link></li>
-            <li><Link  className={`${pathname=='/projectsss'?'active':''}`} href="/project">About</Link></li>
             <li><Link  className={`${pathname=='/projectff'?'active':''}`} href="/project">Skill</Link></li>
             <li><Link  className={`${pathname=='/projecttt'?'active':''}`} href="/project">Expereince</Link></li>
 
