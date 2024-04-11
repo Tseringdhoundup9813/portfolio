@@ -145,9 +145,8 @@
         z-index: 999;
         transition-delay:0.5s;
     }
-    .project-container-wrapper >section>div:hover img{
+    .project-container-wrapper >section>div img{
         filter:grayscale(0%);
-        transition-delay: 0.1s;
     }
     .project-detail-container{
         visibility:visible;

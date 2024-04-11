@@ -14,12 +14,16 @@ function page() {
   return (
     <section  className='project-container-wrapper'>
       <motion.h1 className='project-container-title'
-        initial={{x:200,opacity:0}}
+        initial={{x:150,opacity:0}}
         animate={{x:0,opacity:1}}
-        transition={{duration:0.5}}>
+        transition={{duration:0.3}}>
         My Recent Work
       </motion.h1>
-      <p>Here are a few past design projects Ive worked on</p>
+      <motion.p
+       initial={{x:-150,opacity:0}}
+       animate={{x:0,opacity:1}}
+       transition={{duration:0.3}}
+      >Here are a few past design projects Ive worked on</motion.p>
 
       <section className='project-list-container'>
         <motion.div
@@ -93,6 +97,10 @@ function page() {
             </div>
           </div>
         </motion.div>
+
+        
+
+
         <motion.div   initial={{opacity:0.2}}
           animate={{opacity:1}}
           transition={{duration:1.1}}>
@@ -144,7 +152,7 @@ function page() {
               <h1 className='project-detail-title'>Padmai School</h1>
               <p className='project-detail-year'>Date 2019</p>
             </div>
-            <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
+            <p className='project-detail-des'>Since beginning my journey asncies, consul</p>
             <div className='project-detail-tools-container'>
               <h1>Technologies are</h1>
               <ul>

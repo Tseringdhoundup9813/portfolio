@@ -16,6 +16,9 @@
     color:white;
     text-decoration: none;
 }
+.navbar-icon{
+    display: none;
+}
 .navbar-main-container-wrapper > ul li a:hover{
     color:rgb(218, 218, 218);
 }
@@ -45,27 +48,47 @@
   @media only screen and (max-width: 600px) {
     
         .navbar-main-container-wrapper{
+            all:unset;
             width:100%;
-            height:8vh;
+            height:10vh;
             position: fixed;
             bottom:0px;
-            /* background-color: rgb(81, 81, 81); */
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            background-color: rgb(81, 81, 81);
             z-index:99999;
             border-radius:10px 10px 0px 0px;
         }
-        .navbar-main-container-wrapper > ul li a{
+        .navbar-main-container-wrapper > ul{
+            all: unset;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .navbar-main-container-wrapper > ul li> a{
            font-weight:600;
            font-size:14px;
-           /* background-color: rgb(214, 214, 214); */
-           /* padding:5px; */
+           all: unset;
+           font-size:1px;
+           visibility: hidden;
         }
         .navbar-main-container-wrapper > ul li > .active::after{
             bottom:-21px;
      
+        }
+        .navbar-icon{
+           visibility: visible !important;
+            display: block !important;
+            font-size:1.5rem;
+            background-color: rgb(240, 240, 240);
+            color:rgb(40, 40, 40);
+            width:40px;
+            height:40px;
+            padding:10px;
+            border-radius:50%;
+            transition:all 0.2s ease-in;
+        }
+        .active .navbar-icon {
+            background-color: rgb(255, 183, 148);
+            transform: scale(1.3);
         }
 
   }

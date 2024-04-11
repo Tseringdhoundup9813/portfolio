@@ -1,0 +1,113 @@
+.skill-main-wrapper{
+    padding:10px;
+    width:100%;
+    overflow: hidden;
+}
+
+.skill-main-title{
+    font-size:2rem;
+    color:rgb(245, 128, 112);
+    margin-top:15px;
+}
+
+.skill-main-short-des{
+    color:rgb(236, 236, 236);
+
+}
+.skill-box-container{
+    width:90%;  
+    margin-top:30px; 
+}
+.skill-box-container:last-child{
+    margin-bottom:10vh;
+}
+.skill-box-container > div{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+.skill-box-container > h1{
+    font-size:15px;
+    font-weight:400;
+    color:white;
+    margin:10px 0px;
+    text-transform: uppercase;
+    position: relative;
+    width:fit-content;
+    transition: all 1s ease-out;
+}
+.skill-box-container > h1::after{
+    content:'';
+    width:35%;
+    height:2px;
+    background-color: orange;
+    position: absolute;
+    left:0%;
+    top:110%;
+    border-radius:5px;
+    animation-name: barAnimate;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.skill-main-box{
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px 0px;
+    border-radius:4px;
+}
+.skill-main-box {
+    color:white;
+}
+.skill-main-box >:first-child{
+    font-size:3rem;
+}
+.skill-javascript{
+    color:yellow;
+}
+.skill-main-box > h1{
+    font-size:1.2rem;
+    margin-top:10px;
+    font-weight:400;
+}
+@keyframes barAnimate{
+    from {width:0%;}
+    to {  width:35%;}
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .skill-main-title{
+        font-size:1.5rem;
+    }
+    .skill-main-short-des{
+        font-size:0.9rem;
+        margin-top:5px;
+        
+    
+    }
+    .skill-box-container{
+        width:100%;  
+        margin-top:30px; 
+    }
+    .skill-box-container > div{
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+    .skill-main-box >:first-child{
+        font-size:2.2rem;
+    }
+    .skill-box-container > h1{
+        font-size:13px;
+    
+    }
+    .skill-main-box {
+        padding:10px;
+    }
+    .skill-main-box > h1{
+        font-size:14px;
+    }
+
+  }

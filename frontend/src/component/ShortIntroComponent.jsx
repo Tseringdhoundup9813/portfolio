@@ -10,7 +10,7 @@ import {motion} from 'framer-motion'
 function ShortIntroComponent() {
   return (
     <div className='short-intro-main-section'>
-
+      <h1 className='short-intro-main-title'>Profolio</h1>
         <div className='short-image-main-section'>
             <div>
                <motion.h1
@@ -72,10 +72,10 @@ function ShortIntroComponent() {
              animate={{y:0,opacity:1}}
              style={{originX:0}}
              transition={{delay:0.3,duration:0.5}}>
-            This is Tsering Dhoundup.I am a young learner who is looking 
-            for the pace to work with company
-            that works for technology. 
-            I have spent the quite few years learni
+              Hi, I am Tsering! I am a dedicated web developer with hands-on experience since 2020.
+              Despite not finishing school, I've been committed to advancing my web development skills 
+              through self-learning and practical  projects. 
+          
       </motion.p>
     </div>
   )
