@@ -82,7 +82,14 @@
         filter:drop-shadow(20px 10px rgba(36, 36, 36, 0.471));
         position: absolute;
         left:0px;
+        animation-name: shadowAnimate;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-fill-mode:both;
+        animation-duration:5s;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         bottom:0px;
+        transition:all 1s ease-in-out;
 
     }
     .short-intro-main-section{
@@ -116,9 +123,9 @@
         width:100%;
         font-size:1rem;
         text-align: justify;
-        color:rgb(195, 195, 195);
+        color:rgb(75, 51, 51);
         font-weight:500;
-        background-color: rgb(23, 23, 23);
+        background-color: rgb(255, 204, 160);
         border-radius:5px;
         padding:10px;
         min-height:30vh;
@@ -127,10 +134,23 @@
         display: block !important;
         position: absolute;
         top:20px;
-        font-size:1.8rem;
+        font-size:1.6rem;
         color:white !important;
         letter-spacing:3px;
     }
+
+    @keyframes shadowAnimate {
+        0%{
+            filter:drop-shadow(20px 10px rgba(36, 36, 36, 0.471));
+        }
+        50% {
+            filter:drop-shadow(24px 12px rgba(36, 36, 36, 0.471));
+        }
+        100%{
+            filter:drop-shadow(20px 10px rgba(36, 36, 36, 0.471));
+        }
+      }
+      
 
 
 }
