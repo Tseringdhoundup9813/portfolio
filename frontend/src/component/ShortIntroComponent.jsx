@@ -72,10 +72,9 @@ function ShortIntroComponent() {
              animate={{y:0,opacity:1}}
              style={{originX:0}}
              transition={{delay:0.3,duration:0.5}}>
-              Hi, I am Tsering! I am a dedicated web developer with hands-on experience since 2020.
-              Despite not finishing school, I've been committed to advancing my web development skills 
-              through self-learning and practical  projects. 
-          
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
       </motion.p>
     </div>
   )
