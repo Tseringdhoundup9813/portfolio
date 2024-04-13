@@ -1,14 +1,17 @@
 
 .project-container-wrapper{
+    width:100%;
     color:rgb(232, 232, 232);
     padding-right:20px;
     margin-bottom:40vh;
+
+    
 }
 
 .project-container-title{
-    color:rgb(249, 90, 78);
-    font-size:3rem;
-    margin-top:20px;
+    font-size:2rem;
+    color:rgb(245, 128, 112);
+    margin-top:15px;
 }
 .project-container-wrapper > section{
     display:grid;
@@ -114,13 +117,11 @@
        padding-bottom:0px !important;
        color:white;
        margin-top:20px;
+       overflow-x: hidden;
        
     }
     .project-container-title{
-        all:unset;
-        color:rgb(249, 90, 78);
-        font-size:2rem;
-        font-weight:800;
+        font-size:1.5rem;
     }
     .project-container-wrapper > p{
         color:rgb(230, 230, 230);
@@ -168,4 +169,95 @@
 
     }   
     
+}
+
+
+@media (min-width:425px) and (max-width:1024px) {
+
+    .project-container-wrapper{
+        all:unset;
+        padding:0px 40px;
+        padding-bottom:0px !important;
+        color:white;
+        margin-top:20px;
+        overflow-x: hidden;
+        
+     }
+     .project-container-title{
+         font-size:2.6rem;
+     }
+     .project-container-wrapper > p{
+         font-size:25px;
+         color:rgb(230, 230, 230);
+     }
+     .project-detail-year{
+        font-size:20px;
+    }
+     .project-container-wrapper > section{
+         display:grid;
+         height:80vh;
+         width:100%;
+         overflow: scroll;
+         grid-template-columns: repeat(1,1fr);
+         gap: 20px;
+         column-gap:40px;
+     }
+     .project-container-wrapper > section>div{
+        all:unset;
+     }
+     .project-list-container > div:last-child{
+         margin-bottom:20vh !important;
+
+     }
+     .project-list-container >div:first-child{
+        all:unset;
+
+     }
+     .project-container-wrapper > section > div:hover{
+        all:unset;
+    }
+     .project-container-wrapper >section>div img{
+         filter:grayscale(0%);
+     }
+     .project-detail-container{
+        all:unset;
+        padding:20px;
+
+     }
+    .project-detail-title{
+        font-size:28px;
+    }
+    .project-detail-des{
+        font-size:24px;
+    }
+    .project-detail-tools-container > h1{
+        font-size:25px;
+        margin-top:10px;
+    }
+    .project-detail-tools-container > ul{
+        gap:20px;
+    }
+    .project-detail-tools-container ul li{
+        font-size:20px;
+        padding:10px;
+
+    }
+     
+     .project-container-wrapper >section >div:hover .project-detail-container {
+        all:unset;
+        padding:20px;
+      
+     }
+ 
+     /* PROJECT DETAIL CONTAINER */
+     .project-detail-container{
+         position: static;
+         top:95%;
+         background-color:transparent;
+         padding:10px;
+         
+         /* border-top:1px solid yellow; */
+ 
+     }   
+
 }

@@ -54,3 +54,23 @@ body{
     margin:0px;
   }
 }
+@media (min-width:425px) and (max-width:1024px) {
+  body {
+    padding:0px;
+    margin:0px;
+  }
+  .main-parent-section > div:nth-child(1){
+    width:0%;
+    position: static;
+  }
+  .main-hero-area-section >div:nth-child(1){
+    width:0%;
+  }
+  .main-hero-area-section>div:nth-child(2){
+    width:100%;
+    display:flex;
+    padding:0px;
+    margin:0px;
+  }
+
+}

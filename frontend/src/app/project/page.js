@@ -39,7 +39,7 @@ function page() {
               </div>
               <p className='project-detail-des'>Since beginning my journey as a freelance designer 12 years ago, Ive done remote work for agencies, consul</p>
               <div className='project-detail-tools-container'>
-                <h1>Technologies are</h1>
+                <h1>Technologies </h1>
                 <ul>
                   <li>HTML</li>
                   <li>JAVASCRIPT</li>

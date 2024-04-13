@@ -1,7 +1,7 @@
 .skill-main-wrapper{
     padding:10px;
     width:100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .skill-main-title{
@@ -108,6 +108,46 @@
     }
     .skill-main-box > h1{
         font-size:14px;
+    }
+
+  }
+
+  @media (min-width:425px) and (max-width:1024px) {
+    .skill-main-wrapper{
+        padding:20px 40px;
+        width:100%;
+        overflow-x: hidden;
+    }
+    
+    .skill-main-title{
+        font-size:2rem;
+    }
+    .skill-main-short-des{
+        font-size:1.3rem;
+        margin-top:5px;
+        
+    
+    }
+    .skill-box-container{
+        width:100%;  
+        margin-top:40px; 
+    }
+    .skill-box-container > div{
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+    }
+    .skill-main-box >:first-child{
+        font-size:5rem;
+    }
+    .skill-box-container > h1{
+        font-size:25px;
+    
+    }
+    .skill-main-box {
+        padding:30px;
+    }
+    .skill-main-box > h1{
+        font-size:25px;
     }
 
   }
