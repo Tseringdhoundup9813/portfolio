@@ -34,6 +34,10 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 // -----------------------------------------------------------
 
+app.get("/api/home",(req,res)=>{
+    res.send('hello');
+})
+
 // router
 app.use('/api',userRouter);
 // /---------------------
