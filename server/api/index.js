@@ -5,12 +5,12 @@ import dotenv from "dotenv"
 dotenv.config();
 import express from "express"
 import cors from "cors"
-import db from "./utils/db.js"
+import db from "../utils/db.js"
 
-import GlobalErrorHander from "./utils/GlobalErrorHandler.js"
-import ErrorHandler from "./utils/ErrorHandler.js"
+import GlobalErrorHander from "../utils/GlobalErrorHandler.js"
+import ErrorHandler from "../utils/ErrorHandler.js"
 // router
-import userRouter from "./routes/user.route.js"
+import userRouter from "../routes/user.route.js"
 
 
 
