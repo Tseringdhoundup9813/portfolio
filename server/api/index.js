@@ -35,9 +35,7 @@ app.use(express.urlencoded({extended:true}))
 // -----------------------------------------------------------
 
 
-app.get('/',(req,res)=>{
-    res.send('epxress on vercel')
-})
+
 app.get("/api/home",(req,res)=>{
     res.send('hello world');
 })
