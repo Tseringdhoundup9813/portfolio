@@ -6,13 +6,6 @@ dotenv.config();
 import express from "express"
 import cors from "cors"
 import db from "./utils/db.js"
-// UNCAUGHT EXCEPTION 
-process.on('uncaughtException',(err)=>{
-    console.log(err.name,err.message);
-    console.log('unCaughtException has occured! Shutting down....')
-    process.exit(1);
-})
-// -----------------------------
 
 import GlobalErrorHander from "./utils/GlobalErrorHandler.js"
 import ErrorHandler from "./utils/ErrorHandler.js"
@@ -25,6 +18,13 @@ import userRouter from "./routes/user.route.js"
 const app = express();
 
 
+// UNCAUGHT EXCEPTION 
+process.on('uncaughtException',(err)=>{
+    console.log(err.name,err.message);
+    console.log('unCaughtException has occured! Shutting down....')
+    process.exit(1);
+})
+// -----------------------------
 // CORS
 app.use(cors())
 
@@ -45,7 +45,7 @@ app.use('/api',userRouter);
 
 
 // --------------------------------------------------------------
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 8000
 // connect to database
 db();
 // 
