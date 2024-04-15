@@ -77,7 +77,7 @@ function ContactPage() {
             setIsLoading(true);
             const payload = JSON.stringify({name:name,email:email,message:message});
             try{
-                const response = await fetch("http://localhost:8000/api/user",{
+                const response = await fetch("http://34.201.110.19/api/user",{
                     method:"POST",
                     headers:{
                         "Content-Type":"application/json",
