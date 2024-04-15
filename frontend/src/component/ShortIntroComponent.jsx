@@ -78,7 +78,7 @@ function ShortIntroComponent() {
               Despite not having completed my formal education, I have discovered a deep passion for technology. 
               I have  also explored game development for about a year,further expanding my knowledge and expertise in the tech industry.
               My ultimate dream is to create a tech product that resonates on a global scale, 
-              making a positive impact on people's lives. 
+              making a positive impact on peoples lives. 
               I am dedicated to honing my skills and expanding my knowledge in the ever-evolving world of technology,
               striving to turn my dreams into reality.
         </motion.p>

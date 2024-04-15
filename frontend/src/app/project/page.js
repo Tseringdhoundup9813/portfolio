@@ -46,7 +46,7 @@ function page() {
               <p className='project-detail-des'>
               The school website serves as a comprehensive portfolio showcasing various features such as a banner,
                information about the founder, a gallery of images, and a list of teachers. These components provide visitors
-                with a clear overview of the school's key information and personnel.
+                with a clear overview of the schools key information and personnel.
               </p>
               <div className='project-detail-tools-container'>
                 <h1>Technologies </h1>
