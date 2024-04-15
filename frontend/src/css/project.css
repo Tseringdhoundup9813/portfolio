@@ -15,22 +15,24 @@
 }
 .project-container-wrapper > section{
     display:grid;
-    width:95%;
-    grid-template-columns: repeat(3,1fr);
-    margin-top:4vh;
-    gap: 20px;
+    width:90%;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:10vh;
+    gap:20px;
 }
 .project-container-wrapper > section > div{
     width:100%;
     transition:all 0.2s ease;
     cursor: pointer;
 }
+
+
 .project-container-wrapper > section div img{
     width:100%;
-    height:27vh;
-    object-fit: cover;
+    height:45vh;
+    object-fit:cover;
     filter:grayscale(100%);
-    /* border-radius:3px; */
+    /* border-radius:4px; */
 
 }
 .project-detail-container{
@@ -39,9 +41,12 @@
 
 
 .project-container-wrapper > section > div:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 999;
     transition-delay:0.5s;
+}
+.project-container-wrapper > section > div:last-child{
+    margin-bottom:60vh;
 }
 .project-container-wrapper >section>div:hover img{
     filter:grayscale(0%);
@@ -99,6 +104,7 @@
     gap:7px;
     margin-top:5px;
     margin-bottom:10px;
+    flex-wrap: wrap;
 }
 .project-detail-tools-container > ul li{
     font-size:9px;
@@ -123,9 +129,33 @@
     .project-container-title{
         font-size:1.5rem;
     }
+    .project-detail-title{
+        font-size:17px;
+    }
+    .project-detail-year{
+        font-size:12px;
+    }
+    .project-detail-des{
+        font-size:14px;    
+    }
     .project-container-wrapper > p{
         color:rgb(230, 230, 230);
     }
+    .project-detail-tools-container>h1{
+        font-size:14px;
+        margin-top:14px;
+    } 
+    .project-detail-tools-container > ul li{
+        font-size:12px;
+        list-style-type: none;
+        background-color: rgb(84, 84, 84);
+        padding:4px 6px;
+        border-radius:1px;
+    }
+    
+
+
+
     .project-container-wrapper > section{
         display:grid;
         height:80vh;
@@ -134,6 +164,7 @@
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
         column-gap:40px;
+        margin-top:10px;
     }
     .project-list-container > div:last-child{
         margin-bottom:12vh;

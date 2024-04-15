@@ -1,11 +1,24 @@
+
+"use client"
 import React from 'react'
 import '@/css/expe.css'
+import {motion} from "framer-motion"
+
+
 
 function ExperiencePage() {
   return (
     <div className='experience-main-wrapper'>
-        <h1 className='exp-main-title'>Expereince</h1>
-        <p className='exp-main-des'>The experience that I have gained in recent years.</p>
+        <motion.h1 
+          initial={{x:150,opacity:0}}
+        animate={{x:0,opacity:1}}
+        transition={{duration:0.3}}
+        className='exp-main-title'>Expereince</motion.h1>
+        <motion.p className='exp-main-des'
+         initial={{x:-150,opacity:0}}
+         animate={{x:0,opacity:1}}
+         transition={{duration:0.3}}>
+        The experience that I have gained in recent years.</motion.p>
 
         <div className='exp-box-wrapper'>
             <div className='exp-box-container'>

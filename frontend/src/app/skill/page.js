@@ -9,6 +9,8 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaSquareGit } from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 import { motion } from 'framer-motion';
 
@@ -46,6 +48,14 @@ function SkillPage() {
                 <div className='skill-main-box'>
                     <FaReact className='skill-react' />
                     <h1>REACT</h1>
+                </div>
+                <div className='skill-main-box'>
+                    <TbBrandNextjs className='skill-react' />
+                    <h1>NEXT JS</h1>
+                </div>
+                <div className='skill-main-box'>
+                    <SiTypescript className='skill-react' />
+                    <h1>TYPE SCRIPT</h1>
                 </div>
 
             </div>

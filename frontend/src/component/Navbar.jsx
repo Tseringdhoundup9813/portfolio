@@ -22,7 +22,7 @@ function Navbar() {
             <li><Link  className={`${pathname=='/project'?'active':''}`} href="/project">Project<span><CgWorkAlt className='navbar-icon'/></span></Link></li>
             <li><Link  className={`${pathname=='/skill'?'active':''}`} href="/skill">Skill<span><FaTools className='navbar-icon'/></span></Link></li>
             <li><Link  className={`${pathname=='/experience'?'active':''}`} href="/experience">Expereince<span><GiLaddersPlatform className='navbar-icon'/></span></Link></li>
-            <li><Link  className={`${pathname=='/projecttt'?'active':''}`} href="/project">contact<span><TiContacts className='navbar-icon'/></span></Link></li>
+            <li><Link  className={`${pathname=='/contact'?'active':''}`} href="/contact">contact<span><TiContacts className='navbar-icon'/></span></Link></li>
 
         </ul>
     </section>

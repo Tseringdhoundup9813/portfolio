@@ -2,6 +2,8 @@
 
 .experience-main-wrapper{
     padding:10px;
+    width:100%;
+    overflow-x: hidden;
 }
 
 .exp-main-title{

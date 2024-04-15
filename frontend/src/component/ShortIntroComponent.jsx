@@ -73,13 +73,14 @@ function ShortIntroComponent() {
               animate={{y:0,opacity:1}}
               style={{originX:0}}
               transition={{delay:0.3,duration:0.5}}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+              My name is Tsering Dhoundup Lama, and I am from Nepal. 
+              I am a web developer with approximately two years of experience in the field. 
+              Despite not having completed my formal education, I have discovered a deep passion for technology. 
+              I have  also explored game development for about a year,further expanding my knowledge and expertise in the tech industry.
+              My ultimate dream is to create a tech product that resonates on a global scale, 
+              making a positive impact on people's lives. 
+              I am dedicated to honing my skills and expanding my knowledge in the ever-evolving world of technology,
+              striving to turn my dreams into reality.
         </motion.p>
    
         </div>
