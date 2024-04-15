@@ -30,5 +30,8 @@ jobs:
         cache: 'npm'
         cache-dependency-path: './server/package-lock.json'
     - run: npm ci
+    - run: |
+       touch .env
+       echo "${{secrets.PROD}}" > .env
     - run: pm2 restart index.js
     
