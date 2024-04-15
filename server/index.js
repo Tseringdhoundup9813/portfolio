@@ -19,11 +19,11 @@ const app = express();
 
 
 // UNCAUGHT EXCEPTION 
-process.on('uncaughtException',(err)=>{
-    console.log(err.name,err.message);
-    console.log('unCaughtException has occured! Shutting down....')
-    process.exit(1);
-})
+// process.on('uncaughtException',(err)=>{
+//     console.log(err.name,err.message);
+//     console.log('unCaughtException has occured! Shutting down....')
+//     process.exit(1);
+// })
 // -----------------------------
 // CORS
 app.use(cors())
@@ -35,7 +35,7 @@ app.use(express.urlencoded({extended:true}))
 // -----------------------------------------------------------
 
 app.get("/api/home",(req,res)=>{
-    res.send('hello');
+    res.send('hello world');
 })
 
 // router
