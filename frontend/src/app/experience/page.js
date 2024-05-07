@@ -40,7 +40,7 @@ function ExperiencePage() {
           <p>
             I have developed a website for SmartDoors company, which includes an
             about page, home page, and product page. The website is designed to
-            showcase the company's products and services in a user friendly
+            showcase the companys products and services in a user friendly
             manner.
           </p>
         </div>
